@@ -1,3 +1,9 @@
-import KoFiDialog from "./KoFiDialog";
+import './styles.css';
+import './kofi.css';
 
-export { KoFiDialog };
+import KoFiDialog from "./KoFiDialog";
+import KoFiButton from "./KoFiButton";
+import KoFiWidget from "./KoFiWidget";
+import KoFiPanel from './KofiPanel';
+
+export { KoFiDialog, KoFiButton, KoFiWidget, KoFiPanel };
