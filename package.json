@@ -1,6 +1,6 @@
 {
   "name": "react-kofi",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Ko-fi buttons, modals, and react components built with Radix for React.js projects (unofficial)",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
