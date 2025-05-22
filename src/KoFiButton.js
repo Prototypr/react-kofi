@@ -8,7 +8,7 @@ export default function KoFiButton({
 }) {
   return (
     <div className="flex  justify-start">
-      <div class="btn-container">
+      <div className="btn-container">
         <a
           title={label}
           className={`${label?'kofi-button ':`rounded-full ${size?size:'w-10 h-10'} block flex justify-center`} rounded-full`}
@@ -17,10 +17,10 @@ export default function KoFiButton({
           target="_blank"
           rel="noopener noreferrer"
         >
-          <span class="kofitext">
+          <span className="kofitext">
             <img
               src="https://ko-fi.com/img/cup-border.png"
-              class="kofiimg"
+              className="kofiimg"
               alt="Ko-Fi button"
             />
             {label?label:null}
